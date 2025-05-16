@@ -95,6 +95,18 @@ Recognizes:
 
 ---
 
+## Examples
+
+### Panda3D Touch Demo
+A live demo showing how to integrate `touch_input_system.py` with Panda3D’s
+2D GUI and `taskMgr`. Run it with:
+
+```bash
+python panda3d_touch_demo.py
+```
+
+---
+
 ## Contributing
 
 1. Fork the repo
