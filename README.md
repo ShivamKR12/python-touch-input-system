@@ -22,6 +22,7 @@ Just clone the repo (no pip package yet):
 ```bash
 git clone https://github.com/<your-username>/python-touch-input-system.git
 cd python-touch-input-system
+pip install -r requirements.txt
 ````
 
 Copy `touch_input_system.py` into your project, or install via a future `setup.py`.
@@ -103,6 +104,16 @@ A live demo showing how to integrate `touch_input_system.py` with Panda3D’s
 
 ```bash
 python panda3d_touch_demo.py
+```
+
+---
+
+### Advanced Panda3D Multi-Touch Demo
+
+Shows how to integrate `touch_input_system.py` with Panda3D’s native touch events (multi-touch pinch support) and mouse fallback.
+
+```bash
+python panda3d_touch_demo_advanced.py
 ```
 
 ---
